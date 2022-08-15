@@ -22,6 +22,8 @@ for (var i = 0; i < links.length; i++) {
     })
 }
 
+
+
 function getNews() {
 
 
@@ -48,6 +50,8 @@ function getNews() {
     req.send();
 }
 
+
+
 function displayNews() {
     var temp = "";
     for (var i = 0; i < news.length; i++) {
@@ -65,6 +69,8 @@ function displayNews() {
 
     document.getElementById("NewsRow").innerHTML = temp;
 }
+
+
 
 function globalSearch() {
     var req;
